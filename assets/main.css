@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --font-Montserrat: "Montserrat", sans-serif;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    font-family: var(--font-Montserrat);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    background-color: black;
+}
+
+.header__escudo{
+    width: 46px;
+    height: 44px;
+    filter: brightness(0) saturate(100%) invert(41%) sepia(82%) saturate(6365%) hue-rotate(348deg) brightness(92%) contrast(105%);
+}
